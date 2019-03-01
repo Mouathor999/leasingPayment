@@ -1,0 +1,33 @@
+.main-content {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%
+}
+
+
+@media all and (max-width: 500px) {
+  
+  nav a {
+      font-size: 10px;
+
+    }
+   
+  }
+
+  @media all and (max-width: 400px) {
+  
+    nav a {
+        font-size: 8px;
+  
+      }
+     
+    }
+    
+  @media all and (max-width: 300px) {
+  
+    nav a {
+        font-size:6px;
+  
+      }
+     
+    }

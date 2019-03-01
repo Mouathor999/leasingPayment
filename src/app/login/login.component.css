@@ -1,0 +1,167 @@
+
+.main {
+    background-image: url("../../assets/img/blurImg.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+} 
+.content:hover {
+     box-shadow:  5px 5px 5px #7ea1ee;
+     transition: all .4s ease-in-out;
+}
+
+@media screen and (min-width: 1000px){
+    .content {
+        margin: 10% 25% 25% 25%;
+         /* box-shadow:  5px 5px 1px #7ea1ee; */
+    }
+    .example-container {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .example-container > * {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+}
+@media screen and (min-width: 900px){
+    .content {
+        margin: 10% 25% 25% 25%;
+         /* box-shadow:  5px 5px 1px #7ea1ee; */
+    }
+    .example-container {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .example-container > * {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+}
+@media screen and (max-width: 899px){
+    .content {
+        margin: 20% 25% 30% 25%;
+         /* box-shadow:  5px 5px 1px #7ea1ee; */
+    }
+    .example-container {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .example-container > * {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+} 
+@media screen and (max-width: 800px){
+    .content {
+        margin: 20% 25% 30% 25%;
+         /* box-shadow:  5px 5px 1px #7ea1ee; */
+    }
+    .example-container {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .example-container > * {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+}
+
+@media screen and (max-width: 620px){
+    .content {
+        margin: 25% 5% 50% 5%;
+        /* box-shadow:  3px 3px 1px #7ea1ee; */
+    }
+    .example-container {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .example-container > * {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+}
+
+@media screen and (max-width: 576px){
+    .content {
+        margin: 25% 5% 50% 5%;
+        /* box-shadow:  3px 3px 1px #7ea1ee; */
+    }
+    .example-container {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .example-container > * {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+}
+
+@media screen and (max-width: 400px){
+    .content {
+        margin: 50% 5% 60% 5%;
+        /* box-shadow:  2px 2px 1px #7ea1ee; */
+    }
+    .example-container {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .example-container > * {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+}
+@media screen and (max-width: 320px){
+    .content {
+        margin: 50% 5% 50% 5%;
+        /* box-shadow:  2px 2px 1px #7ea1ee; */
+    }
+    .example-container {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .example-container > * {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+}
+
+
+.text-center {
+    text-align: center
+}
+
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('http://cdn.appshopper.com/icons/670/885431_larger.png');
+    background-size: cover;
+  }
+  .footer {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+

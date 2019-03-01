@@ -1,0 +1,13 @@
+<app-main-header></app-main-header>
+
+<div class="main-content">
+    <nav mat-tab-nav-bar>
+        <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.path" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive"
+            style="text-decoration: none ; font-family: Phetsarath_OT;">
+            {{link.label}}
+        </a>
+    </nav>
+    <div class="main-content">
+    <router-outlet></router-outlet>
+    </div>
+</div>

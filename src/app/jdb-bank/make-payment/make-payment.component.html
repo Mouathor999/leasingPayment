@@ -1,0 +1,21 @@
+<br>
+<div fxLayout="row">
+  <div fxFlex="60%">
+    <div style="margin-left: 18%">
+      <form class="example-form" (submit)="searchDetail()">
+        <mat-form-field class="example-full-width">
+          <input type="tel" name="myid" [(ngModel)]="data" matInput placeholder="ເລກທີ່ສັນຍາ">
+          <mat-icon matSuffix class="search" (click)="searchDetail()" style="width: 100%;">&nbsp; search &nbsp;</mat-icon>
+        </mat-form-field>
+      </form>
+      <br>
+
+    </div>
+  </div>
+</div>
+<div class="sow-content">
+  <br>
+  <div style="margin-left: 2%;margin-right: 2%; margin-bottom: 2%">
+           data here   
+  </div>
+</div>

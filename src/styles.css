@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@font-face {
+    font-family: 'Phetsarath_OT'; 
+    src: url('./assets/Font/Phetsarath_OT/phetsarath_ot.eot'); 
+    src: url('./assets/Font/Phetsarath_OT/phetsarath_ot.eot?#iefix') format('embedded-opentype'), 
+    url('./assets/Font/Phetsarath_OT/phetsarath_ot.woff2') format('woff2'), 
+    url('./assets/Font/Phetsarath_OT/phetsarath_ot.woff') format('woff'), 
+    url('./assets/Font/Phetsarath_OT/phetsarath_ot.ttf') format('truetype'),
+    url('./assets/Font/Phetsarath_OT/phetsarath_ot.svg#Phetsarath_OT') format('svg'); 
+    font-weight: normal;
+    font-style: normal; 
+    }
+  
+  *{
+    font-family: 'Phetsarath_OT';
+  }
+
+
+  

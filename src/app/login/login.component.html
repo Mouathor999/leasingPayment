@@ -1,0 +1,37 @@
+<div class="main">
+
+    <br>
+    <div class="content">
+      <form>
+        <mat-card>
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title><strong>ເຂົ້າສູ່ລະບົບ Leasing Payment</strong></mat-card-title>
+            <mat-card-subtitle><strong style="color: #063fb9">ທະນາຄານຮ່ວມພັດທະນາ</strong></mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="example-container">
+              <div *ngIf="notificationtext != ''" style="color: red">
+                {{notificationtext}}
+                <br>
+              </div>
+              <mat-form-field>
+                <input matInput placeholder="ຊື່ຜູ້ໃຊ້" autofocus name="username" [(ngModel)]="name">
+              </mat-form-field>
+              <mat-form-field>
+                <input matInput placeholder="ລະຫັດຜ່ານ" [type]="hide ? 'password' : 'text'"  name="password" [(ngModel)]="password">
+                <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+              </mat-form-field>
+              
+              <div class="row">
+                <div class="col-md-12 col-md-push-3 text-center">
+                  <button type="submit" mat-raised-button color="primary" (click)="login()" style="width: 50%">ເຂົ້າສູ່ລະບົບ</button>
+                </div>
+              </div>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </form>
+    </div>
+    <br>
+  </div>
